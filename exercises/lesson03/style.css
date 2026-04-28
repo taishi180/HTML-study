@@ -1,0 +1,63 @@
+/* ===== リセット・基本設定 ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 40px;
+  font-family: sans-serif;
+  background-color: #f5f5f5;
+}
+
+h1 {
+  margin-bottom: 24px;
+}
+
+h2 {
+  margin-top: 32px;
+  margin-bottom: 12px;
+}
+
+/* コンテナ（親要素）の見た目 */
+.container {
+  background-color: #e0e0e0;
+  padding: 10px;
+  margin-bottom: 16px;
+  display: flex;
+}
+
+/* アイテム（子要素）の見た目 */
+.item {
+  background-color: #3498db;
+  color: white;
+  padding: 20px 30px;
+  text-align: center;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 4px;
+}
+
+/* ===== Step 2: justify-content ===== */
+/* ガイドに沿って .jc-center, .jc-between, .jc-evenly を書こう */
+
+
+/* ===== Step 3: align-items: center ===== */
+/* .center-both に justify-content, align-items, height を書こう */
+
+
+/* ===== Step 4: gap ===== */
+/* .gap-demo に gap を追加しよう */
+
+
+/* ===== Step 5: flex-wrap ===== */
+.item.wide {
+  min-width: 200px;
+}
+
+/* .wrap-demo に flex-wrap と gap を書こう */
+
+
+/* ===== 練習問題: カードレイアウト ===== */
+/* .card-container と .card のスタイルを自分で書いてみよう */

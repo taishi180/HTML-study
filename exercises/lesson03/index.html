@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flexboxレッスン</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <h1>Flexbox レッスン</h1>
+
+  <!-- Step 1: display: flex で横並び -->
+  <h2>横並びにする</h2>
+  <div class="container">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <!-- Step 2: justify-content -->
+  <h2>中央寄せ</h2>
+  <div class="container jc-center">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <h2>両端に配置</h2>
+  <div class="container jc-between">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <h2>均等に配置</h2>
+  <div class="container jc-evenly">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+  </div>
+
+  <!-- Step 3: align-items: center -->
+  <h2>縦方向の中央寄せ</h2>
+  <div class="container center-both">
+    <div class="item">中央!</div>
+  </div>
+
+  <!-- Step 4: gap -->
+  <h2>gap で隙間を入れる</h2>
+  <div class="container gap-demo">
+    <div class="item">1</div>
+    <div class="item">2</div>
+    <div class="item">3</div>
+    <div class="item">4</div>
+  </div>
+
+  <!-- Step 5: flex-wrap -->
+  <h2>折り返しなし（デフォルト）</h2>
+  <div class="container nowrap-demo">
+    <div class="item wide">1</div>
+    <div class="item wide">2</div>
+    <div class="item wide">3</div>
+    <div class="item wide">4</div>
+    <div class="item wide">5</div>
+  </div>
+
+  <h2>折り返しあり</h2>
+  <div class="container wrap-demo">
+    <div class="item wide">1</div>
+    <div class="item wide">2</div>
+    <div class="item wide">3</div>
+    <div class="item wide">4</div>
+    <div class="item wide">5</div>
+  </div>
+
+  <!-- 練習問題: カードを3つ横並びにしよう -->
+  <h2>練習: カードレイアウト</h2>
+  <div class="card-container">
+    <!-- ここにカードを3つ作ってみよう -->
+  </div>
+
+</body>
+</html>
