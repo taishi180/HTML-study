@@ -1,0 +1,18 @@
+body {
+  background-color: aqua;
+}
+h1 {
+  color: crimson;
+  background-color: chartreuse;
+}
+p {
+  color: darksalmon;
+  font-size: 20px;
+}
+.highlight {
+  background-color: azure;
+}
+li {
+  border: 20px blue;
+  border-radius: 40px yellow;
+}

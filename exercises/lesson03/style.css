@@ -41,23 +41,52 @@ h2 {
 
 /* ===== Step 2: justify-content ===== */
 /* ガイドに沿って .jc-center, .jc-between, .jc-evenly を書こう */
-
+.jc-center {
+  justify-content: space-between;
+}
+.jc-between {
+  justify-content: space-between;
+}
+.jc-evenly {
+  justify-content: space-evenly;
+}
 
 /* ===== Step 3: align-items: center ===== */
 /* .center-both に justify-content, align-items, height を書こう */
-
-
+.center-both {
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
 /* ===== Step 4: gap ===== */
 /* .gap-demo に gap を追加しよう */
-
-
+.gap-demo {
+  gap: 40px;
+}
 /* ===== Step 5: flex-wrap ===== */
 .item.wide {
   min-width: 200px;
 }
+.nowrap-demo {
+  flex-wrap: nowrap;
+}
 
+.wrap-demo {
+  flex-wrap: wrap;
+  gap: 12px;
+}
 /* .wrap-demo に flex-wrap と gap を書こう */
-
 
 /* ===== 練習問題: カードレイアウト ===== */
 /* .card-container と .card のスタイルを自分で書いてみよう */
+.card-container {
+  display: flex;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
